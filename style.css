@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+input [type="tekst"] {
+   
+    border: 2px solid;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: white;
+    color white;
+    font-size: 30px;
+}
+.container {
+   
+    position: relative;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: white; /* Balta fono spalva */
+    padding: 30px;
+}
+
+.container img {
+    width: 100%;
+    display: block;
+}
+
+form {
+   
+   
+    margin-top: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3); /* Šešėlis forma */
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+   
+    
+}
+h1 {
+    text-align: center;
+}
+input.hover {
+    transform: initial;
+}
+
+.eilute input[type="text"],
+.eilute input[type="email"],
+.eilute input[type="submit"] {
+   
+    width: 50%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black; /* Pabraukimo spalva ir storis */
+}
+
+.eilute input[type="submit"] {
+    background-color: black; /* Jūsų norima mygtuko fono spalva */
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+
+    }
+    
+    .zinute{
+        line-height: 1.5;
+        margin-bottom: 10px;
+        text-decoration: underline;
+        
+    }
+   .label {text-decoration: underline;
+
+   }
+    
+    
+
+    
+
+    
